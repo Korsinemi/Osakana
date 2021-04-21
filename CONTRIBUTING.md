@@ -1,12 +1,11 @@
 # Contribuyendo con Kitsunity
-Kitsunityi es planeada para ser un bot multifuncional con apoyo de la cominidad, sientete libre de enviar un pull si estas interesado en ayudar UwU.
+Kitsunity es planeada para ser un bot multifuncional con apoyo de la cominidad, sientete libre de enviar un pull si estas interesado en ayudar UwU.
 
 ## Understanding the code.
 Aqui podras entender la estructura de Kitsunity, el codigo no esta aqui debido a que prevengo que roben mis ideas unu.
 
-File structure
+Estructura del archivo
 ```lua
-.
 Kitsunity
 ├── commands -- Comandos.
 │   └── subdir -- En estos subfolders van todas las categorias y comandos de Kitsunity.
@@ -62,4 +61,4 @@ const role = ctx.guild.roles.cache.get(id);
 // Y lo elimina.
 await role.delete();
 ```
-No es nesesario saber programar, ya que mi codigo es entendible por si mismo, lo unico es poseer el entorno de trabajo adecuado (No el block de notas xD), ademas, no es nesesaria la documentación para entender el lenguaje JavaScript, pero igual si quieres aprender estoy gstosa de enseñarte nwn.
+No es nesesario saber programar, ya que mi codigo es entendible por si mismo, lo unico es poseer el entorno de trabajo adecuado (No el block de notas xD), ademas, no es nesesaria la documentación para entender el lenguaje JavaScript, pero igual si quieres aprender estoy gustosa de enseñarte nwn.
