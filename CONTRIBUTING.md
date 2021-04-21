@@ -1,7 +1,7 @@
 # Contribuyendo con Kitsunity
 Kitsunity es planeada para ser un bot multifuncional con apoyo de la cominidad, sientete libre de enviar un pull si estas interesado en ayudar UwU.
 
-## Understanding the code.
+## Entendiendo el codigo
 Aqui podras entender la estructura de Kitsunity, el codigo no esta aqui debido a que prevengo que roben mis ideas unu.
 
 Estructura del archivo
@@ -35,11 +35,11 @@ class MyEvent extends Event {
 }
 ```
 
-## Commands.
+## Comandos
 
 Mas adelante pondre como hago mis comandos aqui.
 
-## Comments
+## Commentarios
 
 Recomiendo 100% hacer comentarios cuando hagas alguna modificacion, de esta forma sabre donde se edito el comando:
 
