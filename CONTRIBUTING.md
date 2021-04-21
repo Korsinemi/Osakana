@@ -1,24 +1,26 @@
-# Contributing to Miyako
-Miyako is all open-source and is always open for contributions so feel free to send in pull requests anytime.
+# Contribuyendo con Kitsunity
+Kitsunityi es planeada para ser un bot multifuncional con apoyo de la cominidad, sientete libre de enviar un pull si estas interesado en ayudar UwU.
 
 ## Understanding the code.
-This guide will guide you through the code and help better understand the structure of the code.
+Aqui podras entender la estructura de Kitsunity, el codigo no esta aqui debido a que prevengo que roben mis ideas unu.
 
 File structure
 ```lua
 .
-├── assets -- Assets for the bot.
-│   └── json -- JSON assets.
-├── commands -- All commands go here, inside a subdirectory for the category.
-│   └── subdir -- Subdirectories for each command category.
-├── events -- Event listeners.
-├── extensions -- Extensions to discord.js structures.
-├── monitors -- Message monitors.
-├── structures -- Structures.
-└── utils -- Utilities
+Kitsunity
+├── commands -- Comandos.
+│   └── subdir -- En estos subfolders van todas las categorias y comandos de Kitsunity.
+├── commands.beta -- Los comandos que voy creando, los pongo aqui antes de ponerlos en la otra carpeta.
+│   └── maintenance -- Aqui los comandos que aun nesesitas ser reparados o poseen errores.
+└── src -- Funciones.
+    └── json -- Aqui van funciones generales.
+    └── kitsunity.weebly.com -- Esta carpeta posee los recursos del sitio web de Kitsunity.
 ```
 
-## Creating events
+## Creando eventos
+
+Estas funciones se añadiran mas adelante, por ahora esto no es nesesario, solo lo pongo para informacion
+
 ```js
 const Event = require("../structures/Event.js");
 
@@ -33,34 +35,31 @@ class MyEvent extends Event {
   async run(...args) {}
 }
 ```
-Unless you have to disable the event or do extra field initialization the constructor should be ommited.
-
-Run takes arguments depending on the event. Event name is taken from filename if not given.
-
-Events are reloadable.
 
 ## Commands.
-TODO
+
+Mas adelante pondre como hago mis comandos aqui.
 
 ## Comments
-It is encouraged to add some comments and have some space between lines to keep the code readable, for example:
 
-**Bad:**
+Recomiendo 100% hacer comentarios cuando hagas alguna modificacion, de esta forma sabre donde se edito el comando:
+
+**Mal**
 ```js
 const id = doStuff();
 if(!id) return ctx.reply("Not found.");
 const role = ctx.guild.roles.cache.get(id);
 await role.delete();
 ```
-**Good:**
+**Bien**
 ```js
-// Try to find the role.
+// Busca el rol.
 const id = doStuff();
 if(!id) return ctx.reply("Not found.");
 
-// Grab the role.
+// Consige el rol.
 const role = ctx.guild.roles.cache.get(id);
-// Delete it.
+// Y lo elimina.
 await role.delete();
 ```
-The code should be clear and understandable by even beginners. No we won't document every single step to help people learn JavaScript and copy it but have some comments to explain the logic a little bit so it's easier to read and navigate the code.
+No es nesesario saber programar, ya que mi codigo es entendible por si mismo, lo unico es poseer el entorno de trabajo adecuado (No el block de notas xD), ademas, no es nesesaria la documentación para entender el lenguaje JavaScript, pero igual si quieres aprender estoy gstosa de enseñarte nwn.
