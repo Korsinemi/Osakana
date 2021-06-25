@@ -1,20 +1,9 @@
-# Contribuyendo con Kitsunity
+# Contribuyendo con Osakana
 Kitsunity es planeada para ser un bot multifuncional con apoyo de la cominidad, sientete libre de enviar un pull si estas interesado en ayudar UwU.
 
 ## Entendiendo el codigo
 Aqui podras entender la estructura de Kitsunity, el codigo no esta aqui debido a que prevengo que roben mis ideas unu.
 
-Estructura del archivo
-```lua
-Kitsunity
-├── commands -- Comandos.
-│   └── subdir -- En estos subfolders van todas las categorias y comandos de Kitsunity.
-├── commands.beta -- Los comandos que voy creando, los pongo aqui antes de ponerlos en la otra carpeta.
-│   └── maintenance -- Aqui los comandos que aun nesesitas ser reparados o poseen errores.
-└── src -- Funciones.
-    └── json -- Aqui van funciones generales.
-    └── kitsunity.weebly.com -- Esta carpeta posee los recursos del sitio web de Kitsunity.
-```
 
 ## Creando eventos
 
