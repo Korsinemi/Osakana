@@ -1,7 +1,7 @@
 # Osakana
 
 <p align="center">
-    <img src="https://osakana.glitch.me/img/fondo.png">
+    <img src="https://nya.osakana.ml/osakana_banner.gif">
 </p>
 
 ## Quien soy 😸
